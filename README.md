@@ -5,11 +5,11 @@ Operations covered,
 
 | Operation       | Description    | [RequestType]:Request URL |
 | :------------- | :----------: | -----------: |
-| new game | Creates a new game for the player  | [POST]:http://domain-name/kalaha-api/v1/game    |
-| join game   | Joins an existing game | [PUT]:http://domain-name/kalaha-api/v1/game/{game-id} |
-| play   | Play/make move on the game for given player | [PUT]:http://domain-name/kalaha-api/v1/game/play/{game-id} |
-| game state   | Gets the current game state and board for the given player| [PATCH]:http://domain-name/kalaha-api/v1/game/{game-id}/{player-id} |
-| game info   | Gets the game info for the given game| [GET]:http://domain-name/kalaha-api/v1/game/{game-id}|
+| new game | Creates a new game for the player  |[POST]:http://domain-name/kalaha-api/v1/game    |
+| join game   | Joins an existing game |[PUT]:http://domain-name/kalaha-api/v1/game/{game-id} |
+| play   | Play/make move on the game for given player |[PUT]:http://domain-name/kalaha-api/v1/game/play/{game-id} |
+| game state   | Gets the current game state and board for the given player|[PATCH]:http://domain-name/kalaha-api/v1/game/{game-id}/{player-id} |
+| game info   | Gets the game info for the given game|[GET]:http://domain-name/kalaha-api/v1/game/{game-id}|
 
 # Tools and Technologies used
   * [Spring Boot](https://spring.io/blog/2019/10/16/spring-boot-2-2-0)
