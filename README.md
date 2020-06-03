@@ -4,7 +4,7 @@ REST API for Kalaha game.
 Operations covered,
 
 | Operation       | Description    | [RequestType]:Request URL |
-| :------------- | :----------: | -----------: |
+| :------------- | :----------: | :----------- |
 | new game | Creates a new game for the player  |[POST]:http://domain-name/kalaha-api/v1/game    |
 | join game   | Joins an existing game |[PUT]:http://domain-name/kalaha-api/v1/game/{game-id} |
 | play   | Play/make move on the game for given player |[PUT]:http://domain-name/kalaha-api/v1/game/play/{game-id} |
